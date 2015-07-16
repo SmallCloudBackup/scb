@@ -10,7 +10,8 @@
     "bower": "*",
     "body-parser": "*",
     "debug": "*",
-    "jackrabbit": "*"
+    "jackrabbit": "*",
+    "scb-backuper": "git+https://github.com/SmallCloudBackup/scb-backuper"
   },
   "scripts": {
     "postinstall": "node ./node_modules/bower/bin/bower install"
