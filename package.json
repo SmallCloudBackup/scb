@@ -1,19 +1,11 @@
 {
   "name": "SmallCloudBackup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
-    "mongoose": "*",
-    "async": "*",
-    "express": "*",
-    "jade": "*",
-    "bower": "*",
-    "body-parser": "*",
     "debug": "*",
-    "jackrabbit": "*",
-    "scb-backuper": "git+https://github.com/SmallCloudBackup/scb-backuper"
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/bower/bin/bower install"
+    "scb-backuper": "git+https://github.com/SmallCloudBackup/scb-backuper",
+    "scb-scheduler": "git+https://github.com/SmallCloudBackup/scb-scheduler",
+    "scb-config": "git+https://github.com/SmallCloudBackup/scb-config"
   }
 }

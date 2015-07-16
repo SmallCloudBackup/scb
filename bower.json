@@ -1,6 +1,0 @@
-{
-  "name": "Small Cloud Backup - Configuration app",  
-  "dependencies": {
-    "bootstrap": "*"
-  }
-}
