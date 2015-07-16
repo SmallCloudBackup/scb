@@ -4,4 +4,4 @@ var app = require('../app-scheduler');
 var argv = process.argv;
 argv.shift(); // skip node
 argv.shift(); // skip script name
-app.start(argv);
+app.enqueue(argv[0]); // name of a job is thrid on the command line
